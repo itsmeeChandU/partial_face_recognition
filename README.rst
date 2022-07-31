@@ -27,7 +27,7 @@ Features
 --------
 
 * Detect partial faces using CNN
-* Extracting and Matching features using ORB and CNN
+* Extracting and Matching features using ORB and FLANN
 
 
 Note
