@@ -1,5 +1,6 @@
 """Console script for partial_face_recognition."""
 import sys
+
 import click
 
 
