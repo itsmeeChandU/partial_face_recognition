@@ -3,6 +3,7 @@ import dlib
 from imutils.face_utils import FaceAligner
 from skimage import io
 
+"""
 # You can download the required pre-trained face detection model here:
 # http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2
 predictor_model = "D:/battleground/Main Weapon/Codes/Collage_demo/face_recognition/face_recognition_models/shape_predictor_68_face_landmarks.dat"
@@ -58,3 +59,5 @@ for i, face_rect in enumerate(detected_faces):
     cv2.imwrite("aligned_face_{}.jpg".format(1), alignedFace)
 
 dlib.hit_enter_to_continue()
+
+"""
