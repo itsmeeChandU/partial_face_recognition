@@ -16,7 +16,7 @@ Partial Face Recognition
 
 
 
-Code for detecting partial faces
+Code for recognizing partial faces
 
 
 * Free software: MIT license
