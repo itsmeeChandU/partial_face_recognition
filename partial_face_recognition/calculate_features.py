@@ -1,5 +1,6 @@
 from utils.helpers import *
 from .detect_cnn import *
+from .affine_transform import *
 
 
 def calculate_features(X_train, y_train, filename):
@@ -14,6 +15,7 @@ def calculate_features(X_train, y_train, filename):
             continue
         else:
             image = detected_faces[0]
+            image = face_align(image)
             kp1 = orb.detect(image, None)
             kp1, des1 = orb.compute(image, kp1)
             if name in feature_train:
