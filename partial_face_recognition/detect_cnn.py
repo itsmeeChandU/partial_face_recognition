@@ -11,12 +11,12 @@ def detect_face_using_cnn(image):
     face_locations = face_recognition.face_locations(image, model="cnn")
     detected_faces = []
     detected_face_ids = []
-    print("I found {} face(s) in this photograph.".format(len(face_locations)))
+    print("Total faces {} .".format(len(face_locations)))
     i = 1
     for face_location in face_locations:
         # Print the location of each face in this image
         top, right, bottom, left = face_location
-        print("A face is located at pixel location Top: {}, Left: {}, Bottom: {}, Right: {}".format(top, left, bottom,
+        print("Location of face: {}, Left: {}, Bottom: {}, Right: {}".format(top, left, bottom,
                                                                                                     right))
         # writing images in detected folder
 

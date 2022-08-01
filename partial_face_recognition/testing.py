@@ -96,7 +96,7 @@ def calculate_accuracy(test_images_status):
     return correct / len(test_images_status)
 
 
-def save_results(test_images_status, best_match, not_detected_names):
+def save_results(test_images_status, best_match, not_detected_names):  # save the results of the algorithm
     global filename, file
     filename = "y_res.txt"
     print("y_res....../")

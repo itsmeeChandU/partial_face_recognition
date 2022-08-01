@@ -25,6 +25,6 @@ def calculate_features(X_train, y_train, filename):
     filename = str(filename) + ".pickle"
     print("storing the features of training set....../")
     file = open(filename, 'wb')
-    pickle.dump(feature_train, file)
+    pickle.dump(feature_train, file) # dumping the data into a pickle file
     file.close()
     return feature_train, filename
