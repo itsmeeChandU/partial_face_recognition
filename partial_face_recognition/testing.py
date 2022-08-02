@@ -5,7 +5,7 @@ import cv2
 from partial_face_recognition.utils.helpers import *
 from partial_face_recognition.utils.constants import *
 
-path_train = TRAIN_IMAGES_PATH  # to show the results of the algorithm (detecetion and matching)
+path_train = TRAIN_IMAGES_PATH
 path_test = TEST_IMAGES_PATH
 
 
