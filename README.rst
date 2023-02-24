@@ -20,7 +20,6 @@ Code for recognizing partial faces
 
 
 * Free software: MIT license
-* Documentation: https://partial-face-recognition.readthedocs.io.
 
 
 Features
